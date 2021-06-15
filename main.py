@@ -40,7 +40,7 @@ def create_output(file_path, file_path_result):
                 y = i.split(" ")
                 if is_fibonacci(int(y[1])):
                     # reversing a string before adding in output.txt
-                    out.writelines(i[::-1])
+                    out.write(i[::-1])
 
 
 def main():
